@@ -15,7 +15,7 @@ Create Database using docker-compose that we provided
 - Account: SA
 - Password: yourStrong(!)Password
 
-### Table (will be setup automatically after run application)
+### Table (table and data will be setup automatically after run application)
 - table name: product
 	- id
 		- generated value
