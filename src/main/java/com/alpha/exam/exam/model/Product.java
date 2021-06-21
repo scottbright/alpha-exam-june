@@ -2,6 +2,10 @@ package com.alpha.exam.exam.model;
 
 public class Product {
 	
+	@Override
+	public String toString() {
+		return "Product [price=" + price + ", continent=" + continent + ", multiplier=" + multiplier + "]";
+	}
 	private double 	price;
 	private String continent;
 	private int multiplier;
